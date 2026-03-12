@@ -17,8 +17,8 @@
         <div>
             <img src="Image_fx (35).png" alt="">
         </div>
-        <h2>Enjoy FREE</h2>
-        <h1>Interior Design</h1>
+        <h2></h2>
+        <h1>ENJOY FREE Interior Design</h1>
         <p><span class="highlight">FOR FIRST 50 CLIENTS</span></p>
         <a href="https://wa.me/+2348149217581?text=I'm%20interested%20in%20the%20Free%20Interior%20Design%20offer!" class="cta-btn" target="_blank">BOOK YOUR SLOT & GET YOUR TICKET NOW</a>
     </section>
@@ -62,8 +62,38 @@
 </a>
 
 <section id="contact" style="padding: 80px 5%; background-color: #f4f4f4; text-align: center;">
+  
+    <section id="contact" style="padding: 80px 5%; background-color: #f4f4f4; text-align: center;">
     <h2 style="color: var(--deep-maroon); margin-bottom: 10px; text-transform: uppercase;">Claim Your Free Design Slot</h2>
-    <p style="margin-bottom: 30px; color: #555;">Fill the form OR chat with us directly below.</p>
+    <p style="margin-bottom: 30px; color: #555;">Fill in your details to send your request</p>
+    
+    <form id="whatsappForm" style="max-width: 500px; margin: 0 auto; background: var(--pure-white); padding: 30px; border-radius: 10px; border-top: 5px solid var(--vibrant-red);">
+        <div style="margin-bottom: 15px; text-align: left;">
+            <input type="text" id="name" placeholder="Your Full Name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+        </div>
+         <div style="margin-bottom: 15px; text-align: left;">
+            <input type="text" id="phone" placeholder="Your phone number" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+        </div>
+        
+        <div style="margin-bottom: 15px; text-align: left;">
+            <input type="email" id="email" placeholder="Your Email Address" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+        </div>
+         <div style="margin-bottom: 15px; text-align: left;">
+            <input type="text" id="state" placeholder="State of Project" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+        </div>
+          <div style="margin-bottom: 15px; text-align: left;">
+            <input type="text" id="size" placeholder="Whats the size of the project" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+        </div>
+
+        <div style="margin-bottom: 15px; text-align: left;">
+            <input type="text" id="service" placeholder="Type of project (e.g full Interior/makeover)" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;">
+        </div>
+
+        <button type="button" onclick="sendToWhatsapp()" class="cta-btn" style="width: 100%; border: none; cursor: pointer;">
+            SEND DETAILS VIA WHATSAPP
+        </button>
+    </form>
+</section>
     
     <a href="https://wa.me/+2348149217581?text=Hello!%20I'd%20like%20to%20claim%20the%20free%20design%20offer." 
        style="display: inline-block; background-color: #25d366; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 30px; transition: 0.3s;">
@@ -73,6 +103,7 @@
 Agunbelewo Area, Ilobu road,
 Osogbo</p>
     </section>
+    <script src="script.js"></script>
 
 </body>
 </html>
